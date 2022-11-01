@@ -24,7 +24,7 @@ If you wanna parse a `np.ndarray` type into the function, I recommand you to mod
 
 ```python
 import numpy as np
-import Atmosphere as atm
+import atmosphere as atm
 
 def T(h):
     if type(h) == np.ndarray:
@@ -62,5 +62,4 @@ h = 0.: 100.: 15000.; # from 0 to 15km, interval 100m
 T = atm.T.(h); # T is an array of temperature from 0 to 15km, interval 100m
 ```
 
-[1]：丁松滨编著. 飞行性能与飞行计划[M]. 北京：科学出版社, 2013
-著者-出版年制：丁松滨编著. 2013. 飞行性能与飞行计划[M]. 北京：科学出版社
+[1]：丁松滨编著. 飞行性能与飞行计划[M]. 北京：科学出版社, 2013著者-出版年制：丁松滨编著. 2013. 飞行性能与飞行计划[M]. 北京：科学出版社
